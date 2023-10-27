@@ -5,9 +5,9 @@ class EmilyZucker:
 
     def __init__(self):
         self.name = fontstyle.apply("Emily Zucker", 'underline')
-        self.address = '1509 Museum Rd, Gainesville Fl'
-        self.email = 'emilyzucker@ufl.edu'
-        self.phone_number = '954-646-8175'
+        self.address = 'my address'
+        self.email = 'my email'
+        self.phone_number = 'my phone number'
 
     def __repr__(self):
         return (f"{self.name}\n"
@@ -20,7 +20,7 @@ class Education(EmilyZucker):
         EmilyZucker.__init__(self)
 
     highest_degree = fontstyle.apply("High School Diploma - June 2023", 'Italic')
-    high_school = "Cooper City High School, Cooper City Fl"
+    high_school = "my high school"
     gpa = "GPA - 5.32 (weighted) - Principal's Honor Roll"
 
     current_degree = fontstyle.apply("Computer Engineering", 'Italic')
@@ -44,7 +44,7 @@ class WorkExperience(EmilyZucker):
 
     job_title = fontstyle.apply("Bookseller/Barista", 'Italic')
     date_employed = "October 2021 - August 2023"
-    previous_employer = "Barnes and Noble Booksellers, Plantation Fl"
+    previous_employer = "Barnes and Noble Booksellers, (city i worked in)"
     skills_gained = ["Frequently practiced promoting and increasing local book sales; "
                      "used data entry skills to process \t various transactions.",
                      "Practiced food-safe procedures and efficiency of service when "
@@ -86,7 +86,7 @@ class Service(EmilyZucker):
 
     service_title = fontstyle.apply("Administrative Assistant", 'Italic')
     service_date = "June 2021 - August 2021"
-    service_location = "Temple Beth Emet Summer Camp, Pembroke Pines Fl"
+    service_location = "(place i volunteered at, (city i volunteered in)"
     service_skills = ["Assisted with administrative tasks such as file maintenance, using "
                       "Microsoft services such as Excel \t to input data, customer service, "
                       "responding to emails, etc.",
@@ -150,8 +150,8 @@ my_education = Education()
 my_work_experience = WorkExperience()
 my_leadership_1 = Leadership("Science Honor Society President",
                              "August 2022 - June 2023",
-                             "Cooper City High School", )
-my_leadership_1.get_leader_skills(0, "Served as President for the Cooper City High School chapter of "
+                             "(my high school)", )
+my_leadership_1.get_leader_skills(0, "Served as President for the (my high school) chapter of "
                                      "the Science National Honor Society and \t increased female engagement in "
                                      "the club by over 50%.")
 my_leadership_1.get_leader_skills(1, "Led a team that competed in Samsung’s Solve for "
@@ -159,7 +159,7 @@ my_leadership_1.get_leader_skills(1, "Led a team that competed in Samsung’s So
                                      "and \t earned $2,500 for classroom use.")
 my_leadership_2 = Leadership("National English Honor Society President",
                              "August 2022 - June 2023",
-                             "Cooper City High School", )
+                             "(my high school)", )
 my_leadership_2.get_leader_skills(0, "Was responsible for keeping track of monetary funds as well as "
                                      "filing project requests, payment \t requests, ordering supplies such as "
                                      "T-shirts, leading meetings, etc.")
@@ -183,7 +183,7 @@ my_relevant_classes_1 = RelevantClasses("Intro to Programming",
 my_relevant_classes_2 = RelevantClasses("Programming Fundamentals 1",
                                         "University of Florida")
 my_relevant_classes_3 = RelevantClasses("Calculus AB and BC (1 and 2)",
-                                        "Cooper City High School")
+                                        "(my high school)")
 my_skills_and_awards = SkillsAndAwards()
 
 
