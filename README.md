@@ -14,3 +14,6 @@ You'll notice in the version of the program that I've decided to upload here, ce
 You'll notice in resume.py that I imported a module called "fontstyle". Unfortunately, the pdf version of the output does not support the features added by this module, of which i've used "bold" and "Italic". However, if you run it in your IDE of choice, it should work in the output terminal! 
 
 Thanks for taking the time to stop by and read a bit about me!
+
+If you would like to see some of the programs I've built in my programming classes, please visit https://github.com/emilyzucker1/previous_projects.git
+
